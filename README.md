@@ -10,7 +10,7 @@ https://pypi.org/project/simple-function-cache/
 
 #### Latest version
 
-0.0.2
+0.0.3
 
 
 #### Example
