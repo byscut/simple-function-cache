@@ -27,7 +27,6 @@ algo_model_cache = build_cache(db=99, config_json=REDIS_CONFIG)
 
 
 if __name__ == '__main__':
-    from simplex_sdk import SimplexClient
     from hashlib import md5
     import json
 
