@@ -1,4 +1,4 @@
-# Redis Cache
+# Simple Function Cache
 
 Cache model results decorator with redis.
 
