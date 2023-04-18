@@ -6,7 +6,7 @@ if __name__ == "__main__":
 
     setup(
         name="simple-function-cache",
-        version='0.0.3',
+        version='0.0.4',
         description="function cache decorator with redis",
         url="https://github.com/byscut/simple-function-cache.git",
         author="byscut",

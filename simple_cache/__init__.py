@@ -5,8 +5,8 @@
 # @author  : Akaya
 # @Software: PyCharm
 # __init__.py  :  
-from cache_redis.cache import FuncCache, default_cache_condition, CacheMode
-from cache_redis.single_redis import RedisSingleton
+from simple_cache.cache import FuncCache, default_cache_condition, CacheMode
+from simple_cache.single_redis import RedisSingleton
 
 
 def build_cache(db, config_json=None):

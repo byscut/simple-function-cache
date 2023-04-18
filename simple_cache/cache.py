@@ -87,7 +87,7 @@ class FuncCache(object):
                 if _no_cache:
                     logger.info("cache disable - use no cache")
                     return origin_func(*origin_args, **origin_kwargs)
-                key_prefix = cache_name + '_'
+                key_prefix = cache_name + ':'
                 cache_key = key_func(*origin_args, **origin_kwargs)
                 if type(cache_key) != str:
                     raise CallWithCacheException("key_func should return a str , but got :" + str(type(cache_key)), status='Failed')
